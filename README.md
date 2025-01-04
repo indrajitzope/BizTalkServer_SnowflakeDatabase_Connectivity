@@ -13,19 +13,16 @@ User: Snowflake username.
 Password: Snowflake password.
 Warehouse: Default warehouse for queries.
 Test the connection.
-3. Configure BizTalk Server
-          Create a custom .NET component using the Snowflake Connector for .NET.
-   Install Snowflake Connector for .NET:
-   Install the NuGet package:
-   Install-Package Snowflake.Data
-   
-           Develop .NET Component:
+3.	Configure BizTalk Server
+Create a custom .NET component using the Snowflake Connector for .NET.
+Install Snowflake Connector for .NET
+Install the NuGet package: Install-Package Snowflake.Data
+Develop .NET Component
 Write a .NET class to handle Snowflake connections and queries.
 Please find attached code.
-  Call the .NET Component in BizTalk:
+Call the .NET Component in BizTalk:
 Deploy the custom assembly.
 Use a BizTalk orchestration or pipeline to call the component.
-5. Test the Integration
+4. Test the Integration
 Perform end-to-end testing of the data flow between BizTalk Server and Snowflake.
 Check for connectivity, query execution, and data transformation.
-
